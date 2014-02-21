@@ -1,4 +1,4 @@
-update=2/21/2014 2:53:26 PM
+update=2/21/2014 3:17:09 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -82,5 +82,6 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
+LibName17=C:/github/labviewhacker/LVH-Hardware/common/LVH-Common
 [general]
 version=1
