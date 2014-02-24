@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "21 feb 2014"
+Date "24 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -187,7 +187,7 @@ Wire Wire Line
 	5500 1450 5500 1650
 Connection ~ 5500 1550
 Wire Wire Line
-	6800 2200 7100 2200
+	6800 2200 7500 2200
 Wire Wire Line
 	6650 3500 7100 3500
 Wire Wire Line
@@ -195,13 +195,13 @@ Wire Wire Line
 Wire Wire Line
 	7400 4100 7400 1600
 Wire Wire Line
-	7400 1600 6800 1600
+	6800 1600 7500 1600
 Wire Wire Line
-	6800 1700 7350 1700
+	6800 1700 7650 1700
 Wire Wire Line
 	7350 1700 7350 4000
 Wire Wire Line
-	6800 1800 7300 1800
+	6800 1800 7500 1800
 Wire Wire Line
 	7300 1800 7300 3900
 Wire Wire Line
@@ -211,9 +211,9 @@ Wire Wire Line
 Wire Wire Line
 	7250 3800 7250 1900
 Wire Wire Line
-	7250 1900 6800 1900
+	6800 1900 7650 1900
 Wire Wire Line
-	6800 2000 7200 2000
+	6800 2000 7500 2000
 Wire Wire Line
 	7200 2000 7200 3700
 Wire Wire Line
@@ -223,7 +223,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 3600 7150 2100
 Wire Wire Line
-	7150 2100 6800 2100
+	6800 2100 7650 2100
 Wire Wire Line
 	7350 4000 6650 4000
 Wire Wire Line
@@ -231,7 +231,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 1550 5600 1550
 Wire Wire Line
-	5600 2250 5500 2250
+	5400 2250 5600 2250
 Wire Wire Line
 	5500 2250 5500 2650
 Wire Wire Line
@@ -284,4 +284,28 @@ Connection ~ 4600 3500
 Wire Wire Line
 	4750 3200 4600 3200
 Connection ~ 4600 3300
+Text GLabel 7500 1600 2    60   Input ~ 0
+a
+Connection ~ 7400 1600
+Text GLabel 7650 1700 2    60   Input ~ 0
+b
+Text GLabel 7500 1800 2    60   Input ~ 0
+c
+Connection ~ 7350 1700
+Connection ~ 7300 1800
+Text GLabel 7500 2000 2    60   Input ~ 0
+e
+Text GLabel 7650 1900 2    60   Input ~ 0
+d
+Text GLabel 7500 2200 2    60   Input ~ 0
+g
+Text GLabel 7650 2100 2    60   Input ~ 0
+f
+Connection ~ 7100 2200
+Connection ~ 7150 2100
+Connection ~ 7200 2000
+Connection ~ 7250 1900
+Text GLabel 5400 2250 0    60   Input ~ 0
+dp
+Connection ~ 5500 2250
 $EndSCHEMATC

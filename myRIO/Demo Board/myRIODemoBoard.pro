@@ -1,4 +1,4 @@
-update=2/21/2014 3:17:09 PM
+update=2/24/2014 11:18:03 AM
 version=1
 last_client=kicad
 [cvpcb]
@@ -49,8 +49,8 @@ LibName30=valves
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill=0.600000000000
-PadDrillOvalY=0.600000000000
+PadDrill=0.800000000000
+PadDrillOvalY=0.800000000000
 PadSizeH=1.500000000000
 PadSizeV=1.500000000000
 PcbTextSizeV=1.500000000000
