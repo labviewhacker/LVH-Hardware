@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  2/24/2014 11:24:18 AM
+PCBNEW-LibModule-V1  3/3/2014 11:58:47 AM
 # encoding utf-8
 Units mm
 $INDEX
@@ -7,13 +7,13 @@ MXP
 POT_3386F
 $EndINDEX
 $MODULE LTS-5501AB
-Po 0 0 0 15 5307C248 00000000 ~~
+Po 0 0 0 15 5314C2B8 00000000 ~~
 Li LTS-5501AB
 Sc 0
 AR /5307B582
 Op 0 0 0
-T0 0 -10.16 1 1 0 0.15 N V 21 N "7SEG1"
-T1 3.81 10.16 1 1 0 0.15 N V 21 N "7SEGMENTS"
+T0 0.254 -9.906 1 1 0 0.15 N V 21 N "SEV_SEG1"
+T1 0 10.922 1 1 0 0.15 N V 21 N "7-Segment Display"
 DS -6.35 -8.89 -6.35 8.89 0.15 21
 DS -6.35 8.89 6.35 8.89 0.15 21
 DS 6.35 8.89 6.35 -8.89 0.15 21
@@ -21,72 +21,72 @@ DS 0 -8.89 -6.35 -8.89 0.15 21
 DS 0 -8.89 6.35 -8.89 0.15 21
 $PAD
 Sh "1" R 1.5 1.5 0 0 0
-Dr 0.6 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
-Ne 4 "N-000002"
+Ne 7 "e"
 Po -5.08 7.62
 $EndPAD
 $PAD
 Sh "2" C 1.5 1.5 0 0 0
-Dr 0.6 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
-Ne 5 "N-000003"
+Ne 5 "d"
 Po -2.54 7.62
 $EndPAD
 $PAD
 Sh "3" C 1.5 1.5 0 0 0
-Dr 0.6 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
 Ne 1 "+3.3V"
 Po 0 7.62
 $EndPAD
 $PAD
 Sh "4" C 1.5 1.5 0 0 0
-Dr 0.6 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
-Ne 6 "N-000004"
+Ne 4 "c"
 Po 2.54 7.62
 $EndPAD
 $PAD
 Sh "5" C 1.5 1.5 0 0 0
-Dr 0.6 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
-Ne 3 "N-0000014"
+Ne 6 "dp"
 Po 5.08 7.62
 $EndPAD
 $PAD
 Sh "6" C 1.5 1.5 0 0 0
-Dr 0.6 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
-Ne 7 "N-000005"
+Ne 3 "b"
 Po 5.08 -7.62
 $EndPAD
 $PAD
 Sh "7" C 1.5 1.5 0 0 0
-Dr 0.6 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
-Ne 8 "N-000006"
+Ne 2 "a"
 Po 2.54 -7.62
 $EndPAD
 $PAD
 Sh "8" C 1.5 1.5 0 0 0
-Dr 0.6 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
 Ne 1 "+3.3V"
 Po 0 -7.62
 $EndPAD
 $PAD
 Sh "9" C 1.5 1.5 0 0 0
-Dr 0.6 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
-Ne 2 "N-000001"
+Ne 8 "f"
 Po -2.54 -7.62
 $EndPAD
 $PAD
 Sh "10" C 1.5 1.5 0 0 0
-Dr 0.6 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
-Ne 9 "N-000007"
+Ne 9 "g"
 Po -5.08 -7.62
 $EndPAD
 $EndMODULE LTS-5501AB
