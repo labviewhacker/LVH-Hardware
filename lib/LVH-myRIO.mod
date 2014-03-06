@@ -1,0 +1,513 @@
+PCBNEW-LibModule-V1  3/6/2014 10:57:11 AM
+# encoding utf-8
+Units mm
+$INDEX
+MXP_Right_Angle
+MXP_Vertical
+$EndINDEX
+$MODULE MXP_Right_Angle
+Po 0 0 0 15 5318A624 00000000 ~~
+Li MXP_Right_Angle
+Sc 0
+AR /53079AD1
+Op 0 0 0
+T0 22.098 0 1 1 900 0.15 N I 21 N "MXP?"
+T1 15.494 3.81 1 1 0 0.15 N I 21 N "NI myRIO MXP"
+DS -23.114 -11.43 20.574 -11.43 0.15 21
+DS 20.574 -2.921 20.574 -11.43 0.15 21
+DS -23.114 -2.921 -23.114 -11.43 0.15 21
+DS -23.114 -2.921 -23.114 2.794 0.15 21
+DS -23.114 2.794 20.574 2.794 0.15 21
+DS 20.574 2.794 20.574 -2.921 0.15 21
+DS 20.574 -2.921 -23.114 -2.921 0.15 21
+$PAD
+Sh "1" R 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 2 "+5V"
+Po 19.05 1.27
+$EndPAD
+$PAD
+Sh "2" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 -1.27
+$EndPAD
+$PAD
+Sh "3" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 1.27
+$EndPAD
+$PAD
+Sh "4" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -1.27
+$EndPAD
+$PAD
+Sh "5" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 1.27
+$EndPAD
+$PAD
+Sh "6" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 3 "GND"
+Po 13.97 -1.27
+$EndPAD
+$PAD
+Sh "7" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "8" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 3 "GND"
+Po 11.43 -1.27
+$EndPAD
+$PAD
+Sh "9" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "10" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$PAD
+Sh "11" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "12" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 3 "GND"
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "13" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "14" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "15" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "16" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 3 "GND"
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "17" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "18" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "19" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "20" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 3 "GND"
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "21" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "22" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "23" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "24" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 3 "GND"
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "25" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "26" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "27" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 1.27
+$EndPAD
+$PAD
+Sh "28" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 3 "GND"
+Po -13.97 -1.27
+$EndPAD
+$PAD
+Sh "29" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 1.27
+$EndPAD
+$PAD
+Sh "30" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 3 "GND"
+Po -16.51 -1.27
+$EndPAD
+$PAD
+Sh "31" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 1.27
+$EndPAD
+$PAD
+Sh "32" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 -1.27
+$EndPAD
+$PAD
+Sh "33" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 1 "+3.3V"
+Po -21.59 1.27
+$EndPAD
+$PAD
+Sh "34" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 -1.27
+$EndPAD
+$EndMODULE MXP_Right_Angle
+$MODULE MXP_Vertical
+Po 0 0 0 15 5318A8E5 00000000 ~~
+Li MXP_Vertical
+Sc 0
+AR /53079AD1
+Op 0 0 0
+T0 22.098 0 1 1 900 0.15 N I 21 N "MXP?"
+T1 15.494 3.81 1 1 0 0.15 N I 21 N "NI myRIO MXP"
+DS -23.114 -2.921 -23.114 2.794 0.15 21
+DS -23.114 2.794 20.574 2.794 0.15 21
+DS 20.574 2.794 20.574 -2.921 0.15 21
+DS 20.574 -2.921 -23.114 -2.921 0.15 21
+$PAD
+Sh "2" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 1.27
+$EndPAD
+$PAD
+Sh "1" R 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 -1.27
+$EndPAD
+$PAD
+Sh "4" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 1.27
+$EndPAD
+$PAD
+Sh "3" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -1.27
+$EndPAD
+$PAD
+Sh "6" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 1.27
+$EndPAD
+$PAD
+Sh "5" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -1.27
+$EndPAD
+$PAD
+Sh "8" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "7" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -1.27
+$EndPAD
+$PAD
+Sh "10" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "9" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$PAD
+Sh "12" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "11" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "14" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "13" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "16" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "15" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "18" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "17" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "20" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "19" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "22" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "21" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "24" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "23" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "26" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "25" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "28" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 1.27
+$EndPAD
+$PAD
+Sh "27" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -1.27
+$EndPAD
+$PAD
+Sh "30" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 1.27
+$EndPAD
+$PAD
+Sh "29" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -1.27
+$EndPAD
+$PAD
+Sh "32" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 1.27
+$EndPAD
+$PAD
+Sh "31" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 -1.27
+$EndPAD
+$PAD
+Sh "34" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 1.27
+$EndPAD
+$PAD
+Sh "33" C 1.5 1.5 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 -1.27
+$EndPAD
+$EndMODULE MXP_Vertical
+$EndLIBRARY

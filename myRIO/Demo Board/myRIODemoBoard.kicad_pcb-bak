@@ -3,7 +3,7 @@
   (general
     (links 24)
     (no_connects 0)
-    (area 105.359999 52.019999 151.180001 90.220001)
+    (area 104.14 50.8 152.400001 91.440001)
     (thickness 1.6)
     (drawings 10)
     (tracks 72)
@@ -354,10 +354,10 @@
     )
   )
 
-  (module LTS-5501AB (layer F.Cu) (tedit 5314C2B8) (tstamp 5307CF48)
+  (module LTS-5501AB (layer F.Cu) (tedit 5314C56A) (tstamp 5307CF48)
     (at 116.84 72.39 90)
     (path /5307B582)
-    (fp_text reference SEV_SEG1 (at 0.254 -9.906 90) (layer F.SilkS)
+    (fp_text reference SEG1 (at 0.254 -9.906 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "7-Segment Display" (at 0 10.922 90) (layer F.SilkS)

@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/6/2014 10:47:42 AM
+
+BeginCmp
+TimeStamp = /5318A04D;
+Reference = MXP1;
+ValeurCmp = NI_MYRIO_MXP;
+IdModule  = MXP_Right_Angle;
+EndCmp
+
+BeginCmp
+TimeStamp = /5318A05A;
+Reference = MXP2;
+ValeurCmp = NI_MYRIO_MXP;
+IdModule  = MXP_Vertical;
+EndCmp
+
+EndListe
