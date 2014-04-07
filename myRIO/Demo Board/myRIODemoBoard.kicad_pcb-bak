@@ -124,7 +124,7 @@
     (add_net g)
   )
 
-  (module R3 (layer F.Cu) (tedit 530CD5DE) (tstamp 530B7EC6)
+  (module R3 (layer F.Cu) (tedit 5342EBF0) (tstamp 530B7EC6)
     (at 132.08 81.28 90)
     (descr "Resitance 3 pas")
     (tags R)
@@ -133,7 +133,7 @@
     (fp_text reference R1 (at 0 -2.794 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2032)))
     )
-    (fp_text value 1k (at 6.35 0 90) (layer F.SilkS)
+    (fp_text value 200k (at 7.366 0 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2032)))
     )
     (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
